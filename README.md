@@ -20,7 +20,7 @@ for index, dictionary in enumerate(array):
 ```
 
 #### OUTPUT:
-![loop-without-embed](/images/loop_without_embed.PNG)
+![loop-without-embed](/images/loop_without_embed.png)
 
 ### PyTorch Reporter:
 
