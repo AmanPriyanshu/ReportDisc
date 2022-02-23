@@ -57,4 +57,4 @@ reporter_callback = TFReportDisc(webhook_url, embed_reports=True)
 ```
 
 #### OUTPUT:
-![tensorflow-with-embed](/images/tensorflow_with_embed.png)
+![tensorflow-with-embed](/images/embed.png)
