@@ -52,9 +52,9 @@ def train(webhook_url, epochs=5, mode="torch", embed=False):
 if __name__ == '__main__':
 	with open(".secrets", "r") as f:
 		webhook_url = f.read()
-	# train(webhook_url, mode="tf")
-	# train(webhook_url, mode="torch")
-	# train(webhook_url, mode="list")
+	train(webhook_url, mode="tf")
+	train(webhook_url, mode="torch")
+	train(webhook_url, mode="list")
 
 	train(webhook_url, mode="tf", embed=True)
 	train(webhook_url, mode="torch", embed=True)
