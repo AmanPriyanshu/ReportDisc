@@ -16,7 +16,7 @@ from ReportDisc import ReportDisc, TorchReportDisc, TFReportDisc
 rd = ReportDisc(webhook_url)
 rd.report("Iterating through: "+str(array))
 for index, dictionary in enumerate(array):
-	rd.report_stats(dictionary)
+  rd.report_stats(dictionary)
 ```
 
 ### PyTorch Reporter:
@@ -28,7 +28,7 @@ trd.report("Starting PyTorch...")
 for epoch in range(10):
   for batch_x, batch_y in dataloader:
     ...
-		trd.report_stats({"loss": loss, "acc": acc})
+    trd.report_stats({"loss": loss, "acc": acc})
 ```
 
 ### TensorFlow Reporter:
