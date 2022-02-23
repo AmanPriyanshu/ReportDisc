@@ -56,8 +56,5 @@ model.fit(x, y, batch_size=64, epochs=5, validation_split=0.2, callbacks=[report
 reporter_callback = TFReportDisc(webhook_url, embed_reports=True)
 ```
 
-
 #### OUTPUT:
-![loop-with-embed](/images/loop_with_embed.png)
-![torch-with-embed](/images/torch_with_embed.png)
 ![tensorflow-with-embed](/images/tensorflow_with_embed.png)
