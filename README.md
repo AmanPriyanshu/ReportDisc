@@ -19,6 +19,9 @@ for index, dictionary in enumerate(array):
   rd.report_stats(dictionary)
 ```
 
+#### OUTPUT:
+![loop-without-embed](/images/loop_without_embed.PNG)
+
 ### PyTorch Reporter:
 
 
