@@ -34,6 +34,10 @@ for epoch in range(10):
     trd.report_stats({"loss": loss, "acc": acc})
 ```
 
+
+#### OUTPUT:
+![torch-without-embed](/images/torch_without_embed.png)
+
 ### TensorFlow Reporter:
 
 ```py
@@ -44,8 +48,7 @@ model.fit(x, y, batch_size=64, epochs=5, validation_split=0.2, callbacks=[report
 ```
 
 #### OUTPUT:
-
-
+![tensorflow-without-embed](/images/tensorflow_without_embed.png)
 
 ## Embedding Reports:
 
@@ -53,5 +56,8 @@ model.fit(x, y, batch_size=64, epochs=5, validation_split=0.2, callbacks=[report
 reporter_callback = TFReportDisc(webhook_url, embed_reports=True)
 ```
 
-#### OUTPUT:
 
+#### OUTPUT:
+![loop-with-embed](/images/loop_with_embed.png)
+![torch-with-embed](/images/torch_with_embed.png)
+![tensorflow-with-embed](/images/tensorflow_with_embed.png)
